@@ -7,29 +7,58 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="animated-bg"></div>
   <header>
     <h1>Divi Group</h1>
     <p class="subtitle">IT Consulting & App Development</p>
   </header>
   <main>
-    <section class="description">
-      <h2>About Us</h2>
+    <section class="about animated-fadein">
+      <h2>Who We Are</h2>
       <p>
-        Divi Group is an IT consulting company specializing in innovative mobile solutions.<br>
-        <strong>Our Apps on Play Store:</strong>
-        <ul>
-          <li><b>TechHack</b> <span class="status hosted">Hosted</span></li>
-          <li><b>Splitzy</b> <span class="status soon">Coming Soon</span></li>
-        </ul>
+        <strong>Divi Group</strong> is a collective of passionate developers dedicated to building, debugging, and scaling applications for the digital era.<br>
+        <span class="highlight">Our expertise:</span>
+      </p>
+      <ul class="skills">
+        <li>React &amp; React Native</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Java, Spring Boot, API Development</li>
+        <li>Angular, Mendix, Node.js</li>
+      </ul>
+      <p>
+        We help startups and enterprises bring their ideas to life with robust, scalable, and maintainable solutions.
       </p>
     </section>
-    <section class="links">
+    <section class="apps animated-slidein">
+      <h2>Our Apps</h2>
+      <div class="app-list">
+        <div class="app-card">
+          <div class="app-icon hosted"></div>
+          <div>
+            <h3>TechHack</h3>
+            <span class="status hosted">Hosted</span>
+            <p>Available on Play Store</p>
+          </div>
+        </div>
+        <div class="app-card">
+          <div class="app-icon soon"></div>
+          <div>
+            <h3>Splitzy</h3>
+            <span class="status soon">Coming Soon</span>
+            <p>Expense sharing made easy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="links animated-fadein">
       <a href="privacy.html" class="button">Privacy Policy</a>
     </section>
-    <section class="contact">
+    <section class="contact animated-fadein">
       <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:vishal702355@gmail.com">vishal702355@gmail.com</a></p>
-      <p>Phone: <a href="tel:7023553430">7023553430</a></p>
+      <div class="contact-info">
+        <span>Email:</span> <a href="mailto:vishal702355@gmail.com">vishal702355@gmail.com</a><br>
+        <span>Phone:</span> <a href="tel:7023553430">7023553430</a>
+      </div>
     </section>
   </main>
   <footer>

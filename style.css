@@ -9,6 +9,16 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+.splitzy-link {
+  color: #7b2ff2;
+  text-decoration: none;
+  font-weight: 600;
+}
+.splitzy-link:hover {
+  color: #f357a8;
+  text-decoration: underline;
+}
+
 
 .animated-bg {
   position: fixed;
